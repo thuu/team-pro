@@ -4,7 +4,7 @@ var express = require('express'),
     mongoose = require('mongoose'),
     Event = require('./api/models/teamProModel'),
     bodyParser = require('body-parser');
-    
+
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/TeamProdb');
 
