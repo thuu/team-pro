@@ -11,6 +11,9 @@ How to start:
 ## Backend (team-pro-api)
 Requirements:
 - Node (13.8.0)
+- mongoose
+- express
+- nodemon
 - MongoDB (community@4.2)
 
 How to start:
