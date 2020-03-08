@@ -8,21 +8,31 @@ var EventSchema = new Schema({
         type: String,
         required: 'Enter the event title'
     },
-    date: {
+    startDate: {
         type: String,
-        required: 'Enter the event date'
+        required: 'Enter the event start date and time'
     },
-    start: {
+    endDate: {
         type: String,
-        required: 'Enter the event start time'
-    },
-    end: {
-        type: String,
-        required: 'Enter the event end time'
+        required: 'Enter the event end date and time'
     },
     place: {
         type: String,
         required: 'Enter the event place'
+    },
+    forwarderCount: {
+        type: Number,
+        default: 0
+    }
+    ,
+    defenderCount: {
+        type: Number,
+        default: 0
+    }
+    ,
+    goalieCount: {
+        type: Number,
+        default: 0
     }
 });
 
