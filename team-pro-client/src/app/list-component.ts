@@ -25,11 +25,11 @@ import {ActivatedRoute} from "@angular/router";
         <div class="event-item-col">
           <div class="reg-info">
             <div class="reg-info-item">
-              <div class="title">Forwarders</div>
+              <div class="title">Forwards</div>
               <div class="count">{{event.forwarderCount}}</div>
             </div>
             <div class="reg-info-item">
-              <div class="title">Defenders</div>
+              <div class="title">Defense</div>
               <div class="count">{{event.defenderCount}}</div>
             </div>
             <div class="reg-info-item">

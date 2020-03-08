@@ -6,7 +6,7 @@ var express = require('express'),
     bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/TeamProdb');
+mongoose.connect('mongodb://localhost/TeamProdb', {useUnifiedTopology: true, useNewUrlParser: true});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
